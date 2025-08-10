@@ -1,5 +1,10 @@
 #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your dtsi
+#include <layouts/cuddlykeyboards/ferris.dtsi>
 
+&cuddlykeyboards_ferris_layout {
+    transform = <&default_transform>;
+    
+};
 
 / {
     kscan0: kscan0 {

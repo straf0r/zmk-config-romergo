@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: upstream
-      url: https://github.com/zmkfirmware/zmk
-  repositories:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+  projects:
     - name: zmk
-      remote: upstream
+      remote: zmkfirmware
+      import: app/west.yml
       revision: main
-    - name: zmk-config-romergo
-      path: zmk-config-romergo
-      revision: main
+  self:
+    path: config
