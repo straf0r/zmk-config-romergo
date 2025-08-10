@@ -1,8 +1,8 @@
 #include "romergo.dtsi" // The shared dtsi file is included in the overlay
 
-// Label of the kscan node in the dtsi
 &kscan0 {
     status = "okay";
+    compatible = "zmk,kscan-gpio-matrix";
     col-gpios
         = <&pro_micro 9 GPIO_ACTIVE_HIGH>
         , <&pro_micro 8 GPIO_ACTIVE_HIGH>
