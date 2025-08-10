@@ -3,11 +3,12 @@
 
 &cuddlykeyboards_ferris_layout {
     transform = <&default_transform>;
-    
+
 };
 
 / {
     kscan0: kscan0 {
+        status = "okay";
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
         wakeup-source;
