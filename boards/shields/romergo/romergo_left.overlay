@@ -2,6 +2,7 @@
 
 // Label of the kscan node in the dtsi
 &kscan0 {
+    status = "okay";
     col-gpios
         = <&pro_micro 5 GPIO_ACTIVE_HIGH>
         , <&pro_micro 6 GPIO_ACTIVE_HIGH>
