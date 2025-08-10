@@ -1,0 +1,10 @@
+file_format: "1"
+id: romergo
+name: Romergo
+type: shield
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - romergo_left
+  - romergo_right

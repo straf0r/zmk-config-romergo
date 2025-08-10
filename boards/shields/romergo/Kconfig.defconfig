@@ -1,0 +1,13 @@
+if SHIELD_ROMERGO_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Romergo"
+
+endif
+
+if SHIELD_ROMERGO_LEFT || SHIELD_ROMERGO_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
